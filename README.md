@@ -32,6 +32,8 @@ Or install it yourself as:
 This will give you some simple, basic layouts (nothing fancy) and the basic CSS.
 It's just a skeleton, after all ;)
 
+You can add custom CSS in `assets/style.css` in your Jekyll site and it'll automatically be included.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/awochna/jekyll-skeleton. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
