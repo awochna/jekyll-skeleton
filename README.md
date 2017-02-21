@@ -45,6 +45,19 @@ To list related posts at the end of a post, add the following line to your `_con
 Then, the top 5 related posts will be listed.
 See Jekyll's [docs](https://jekyllrb.com/docs/variables/#site-variables) for more information on what this means.
 
+## Enabling comments via Disqus ##
+
+If you have a Disqus account, you can enable comments for your posts in the same way as you do for Minima, by adding the following to your `_config.yml`:
+
+```
+disqus:
+  shortname: my_disqus_shortname
+```
+
+Like in Minima, comments are enabled by default and appear only in a production environment (`JEKYLL_ENV=production`).
+
+Adding `comments: false` to a post's YAML front matter turns off displaying comments for that post.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/awochna/jekyll-skeleton. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
