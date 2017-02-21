@@ -1,5 +1,7 @@
 # jekyll-skeleton #
 
+[![Gem Version](https://badge.fury.io/rb/jekyll-skeleton.svg)](https://badge.fury.io/rb/jekyll-skeleton)
+
 Super simple implementation of [Skeleton CSS](http://getskeleton.com) as a Jekyll theme.
 
 ## Why? ##
@@ -33,6 +35,15 @@ This will give you some simple, basic layouts (nothing fancy) and the basic CSS.
 It's just a skeleton, after all ;)
 
 You can add custom CSS in `assets/style.css` in your Jekyll site and it'll automatically be included.
+
+## Adding Related Posts ##
+
+To list related posts at the end of a post, add the following line to your `_config.yaml`:
+
+    include_related_posts: true
+
+Then, the top 5 related posts will be listed.
+See Jekyll's [docs](https://jekyllrb.com/docs/variables/#site-variables) for more information on what this means.
 
 ## Contributing
 
