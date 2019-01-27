@@ -36,6 +36,20 @@ It's just a skeleton, after all ;)
 
 You can add custom CSS in `assets/style.css` in your Jekyll site and it'll automatically be included.
 
+## Google Analytics ##
+
+This theme has a google analytics helper for page views.
+All you have to do is add something like the following to your `_config.yml`:
+
+```
+google_analytics: "UA-00000000-1"
+anonymize_ip: true
+```
+
+Use whatever your UA code is.
+The `anonymize_ip` option is to anonymize IP addresses when collecting tracking information.
+Anonymizing IP information means you don't track any sort of personal data.
+
 ## Adding Related Posts ##
 
 To list related posts at the end of a post, add the following line to your `_config.yaml`:
