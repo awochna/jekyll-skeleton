@@ -58,6 +58,15 @@ Like in Minima, comments are enabled by default and appear only in a production 
 
 Adding `comments: false` to a post's YAML front matter turns off displaying comments for that post.
 
+## Privacy Policy link ##
+
+You can provide a link to your privacy policy in the footer of your site by specifying the URL in your `_config.yml` file.
+Add the following:
+
+```
+privacy_policy_url: "/your-privacy-policy-url-here"
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/awochna/jekyll-skeleton. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
