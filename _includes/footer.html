@@ -9,6 +9,11 @@
         {% endif %}
       </li>
       <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+      {% if site.privacy_policy_url %}
+        <li>
+          <a href="{{ site.privacy_policy_url }}">Privacy Policy</a>
+        </li>
+      {% endif %}
     </ul>
   </div>
 
